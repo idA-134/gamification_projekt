@@ -1,0 +1,39 @@
+2025-10-12 07:59:03 [INFO] Benutzer 'Max Mustermann' hat sich erfolgreich angemeldet.
+2025-10-12 08:01:22 [INFO] Benutzer 'Lisa Becker' hat Druckauftrag gestartet.
+2025-10-12 08:02:10 [INFO] Benutzer 'Felix Baumgartner' hat versucht, das WLAN-Passwort zu ändern. Zugriff verweigert.
+2025-10-12 08:03:45 [INFO] Benutzer 'Anna Schmidt' hat Systemprotokolle überprüft.
+2025-10-12 08:04:11 [INFO] Benutzer 'Kurt Dagel' hat sich angemeldet.
+2025-10-12 08:05:14 [INFO] Benutzer 'Mario Müller' hat Datei 'Urlaub_2023.zip' heruntergeladen.
+2025-10-12 08:06:00 [WARN] Benutzer 'Administrator' hat versucht, die Seite 'admin.php' zu öffnen. Zugriff verweigert: keine ausreichenden Berechtigungen.
+2025-10-12 08:06:33 [INFO] Benutzer 'Kurt Dagel' hat die Seite 'admin.php' geöffnet. Zugriff gewährt: Adminrechte erkannt.
+2025-10-12 08:07:05 [INFO] Benutzer 'Anna Schmidt' hat Einstellungen geändert.
+2025-10-12 08:07:50 [INFO] Benutzer 'Sophie König' hat Logfiles geprüft.
+2025-10-12 08:08:32 [INFO] Benutzer 'Tom Schreiber' hat sich erfolgreich angemeldet.
+2025-10-12 08:09:10 [INFO] Benutzer 'Lisa Becker' hat keinen Zugriff auf die Datei 'Abschluss_Projekt.zip'.
+2025-10-12 08:09:42 [INFO] Benutzer 'Max Mustermann' hat Datei 'Abschluss_Projekt.zip' heruntergeladen.
+2025-10-12 08:10:19 [INFO] Benutzer 'Felix Baumgartner' hat wiederholt falsches Passwort eingegeben.
+2025-10-12 08:11:04 [INFO] Benutzer 'Mario Müller' hat Druckerstatus abgefragt.
+2025-10-12 08:11:39 [INFO] Benutzer 'Svenja Fischer' hat sich angemeldet.
+2025-10-12 08:12:21 [WARN] Benutzer 'Lisa Becker' hat wiederholt falsches Passwort eingegeben.
+2025-10-12 08:13:22 [INFO] Benutzer 'Max Mustermann' hat die Datei 'Abschluss_Projekt.zip' entpackt.
+2025-10-12 08:14:01 [INFO] Benutzer 'Anna Schmidt' hat einen neuen Benutzer 'Max Mustermann' angelegt.
+2025-10-12 08:15:42 [INFO] Benutzer 'Lisa Becker' hat versucht, Einstellungen zu ändern. Zugriff verweigert.
+2025-10-12 08:16:24 [INFO] Benutzer 'Max Mustermann' hat das System heruntergefahren.
+2025-10-12 08:17:07 [INFO] Benutzer 'Kurt Dagel' hat das Passwort von Benutzer 'Svenja Fischer' zurückgesetzt.
+2025-10-12 08:18:34 [INFO] Benutzer 'Mario Müller' hat sich abgemeldet.
+2025-10-12 08:19:57 [INFO] Benutzer 'Anna Schmidt' hat das System neugestartet.
+2025-10-12 08:21:13 [INFO] Benutzer 'Sophie König' hat Einstellungen geprüft.
+2025-10-12 08:22:31 [INFO] Benutzer 'Felix Baumgartner' hat versucht, Einstellungen zu ändern. Zugriff verweigert.
+2025-10-12 08:23:17 [INFO] Benutzer 'Kurt Dagel' hat einen neuen Benutzer 'Tom Schreiber' angelegt.
+2025-10-12 08:23:55 [WARN] Benutzer 'Administrator' hat erneut versucht, die Seite 'admin.php' zu öffnen. Zugriff verweigert: keine ausreichenden Berechtigungen.
+2025-10-12 08:25:42 [INFO] Benutzer 'Max Mustermann' hat die letzte Aufgabe gelöst.
+2025-10-12 08:26:18 [INFO] Benutzer 'Svenja Fischer' hat Datei 'Test123.zip' gelöscht.
+2025-10-12 08:26:59 [INFO] Benutzer 'Administrator' hat sich abgemeldet.
+2025-10-12 08:27:19 [INFO] Benutzer 'Sophie König' hat Logfiles geprüft.
+2025-10-12 08:27:55 [INFO] Benutzer 'Tom Schreiber' hat Screenshot erstellt.
+2025-10-12 08:28:45 [INFO] Benutzer 'Felix Baumgartner' hat Netzwerkdiagnose ausgeführt.
+2025-10-12 08:29:33 [INFO] Benutzer 'Mario Müller' hat sich erneut angemeldet.
+2025-10-12 08:30:24 [INFO] Benutzer 'Anna Schmidt' hat das Passwort von Benutzer 'Lisa Becker' zurückgesetzt.
+2025-10-12 08:31:52 [INFO] Benutzer 'Max Mustermann' hat sich erneut angemeldet.
+2025-10-12 08:32:13 [INFO] Benutzer 'Sophie König' hat Einstellungen geprüft.
+2025-10-12 08:33:07 [INFO] Benutzer 'Anna Schmidt' hat Systemprotokolle überprüft.

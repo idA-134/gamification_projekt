@@ -1,0 +1,81 @@
+# Administratoren-Übergabe: Sicherheitsbeurteilung und Hinweise
+
+**Autor:** Julia Schmitt  
+**Datum der Übergabe:** 12. Oktober 2025
+
+---
+
+## Übersicht
+
+Im Verlauf meiner Tätigkeit als Administratorin habe ich die IT-Infrastruktur kontinuierlich gegen verschiedene Bedrohungen gehärtet und mehrere Maßnahmen etabliert. Dieses Dokument fasst die erkannten Risiken, getroffene Schutzmaßnahmen und noch offene Aufgaben für meine Nachfolge zusammen.
+
+---
+
+## 1. Benutzerkonten & Rechteverwaltung
+
+Die regelmäßige Überprüfung der Benutzerkonten offenbarte, dass einige historische Nutzer über zu weitreichende Berechtigungen verfügten. Die Rechtevergabe ist mittlerweile rollenbasiert und veraltete Konten wurden entfernt. Dennoch empfiehlt es sich, diese Prüfungen weiterhin durchzuführen und neue Konten nach dem Vier-Augen-Prinzip zu genehmigen.
+
+---
+
+## 2. Passwortsicherheit
+
+Es wurde ein Mindeststandard für Passwörter implementiert (mindestens 12 Zeichen, Groß-/Kleinschreibung, Zahlen, Sonderzeichen). Die Durchsetzung regelmäßiger Passwortänderungen ist noch nicht verpflichtend und sollte künftig ergänzt werden. Auch die Speicherung der Passwörter erfolgt inzwischen ausschließlich verschlüsselt.
+
+---
+
+## 3. SQL Injection – Schutz und verbleibende Risiken
+
+Im Bereich der Datenbankabfragen wurden diverse Angriffsversuche beobachtet. Die klassischen Methoden, bei denen ein Angreifer mittels einer Zeichenfolge wie  
+`' OR '1'='1 --`  
+die SQL-Abfrage manipuliert und durch das Kommentarzeichen den Rest der Abfrage aushebelt, sind inzwischen nicht mehr wirksam.  
+Die Systeme wurden dagegen erfolgreich geschützt.
+
+Allerdings besteht weiterhin eine Schwachstelle gegenüber der Variante ohne das Kommentarzeichen:
+`' OR '1'='1`
+Hier kann der nachfolgende SQL-Code weiterhin ausgeführt werden, da dieser Teil der Abfrage nicht ausgehebelt wird. Ich empfehle dringend, alle Eingaben zu validieren und konsequent auf parametrisierte Abfragen (Prepared Statements) umzustellen, um auch diese Lücke zu schließen.
+
+---
+
+## 4. Netzwerk & Firewall
+
+Die Firewall wurde angepasst, sodass kritische Verwaltungsdienste nur von autorisierten IP-Adressen erreichbar sind. Nicht benötigte Ports sind geschlossen und regelmäßige Prüfungen auf offene Dienste werden durchgeführt. Dennoch ist das Netzwerk-Monitoring ausbaufähig: Eine automatisierte Erkennung und Benachrichtigung bei ungewöhnlichen Aktivitäten ist noch nicht vollständig eingerichtet.
+
+---
+
+## 5. Backup & Wiederherstellung
+
+Backups werden wöchentlich automatisiert und verschlüsselt auf ein externes Medium übertragen. Die Wiederherstellung wurde mehrfach getestet und verlief erfolgreich. Es empfiehlt sich, die Backup-Intervalle regelmäßig zu prüfen und Test-Wiederherstellungen weiterhin durchzuführen.
+
+---
+
+## 6. Webanwendungen & Formularschutz
+
+Eine grundlegende Validierung der Formulareingaben ist implementiert, um die häufigsten Cross-Site-Scripting-Versuche zu blockieren. Die Integration von Captcha-Mechanismen an kritischen Einstiegspunkten ist vorgesehen, aber bislang nicht vollständig umgesetzt.
+
+---
+
+## Zusammenfassung – Offene Punkte zur Härtung
+
+- **Passwortpolitik:** Verpflichtende regelmäßige Passwortänderungen für alle Benutzer einführen.
+- **Netzwerk-Monitoring:** Automatische Alarmierung bei Auffälligkeiten im Netzwerkverkehr einrichten.
+- **Webanwendungen:** Captcha-Integration und erweiterte Eingabevalidierungen für alle kritischen Formulare abschließen.
+- **Benutzerverwaltung:** Vier-Augen-Prinzip bei Neuanlage von Konten einführen und regelmäßige Rechte-Prüfungen fortführen.
+- **Backup-Strategie:** Prüfung der Backup-Intervalle und automatisierte Test-Wiederherstellungen einplanen.
+- **Firewall:** Überwachung und automatisierte Benachrichtigung bei Änderungen der Firewall-Regeln implementieren.
+- **SQL Injection:** Muss noch gehärtet werden, zu Unsicher
+- **Logging & Protokollierung:** Einführung eines zentralen Log-Managements mit Langzeitarchivierung, automatische Log-Auswertungen zur Erkennung von Angriffsmustern.
+- **Software-Updates:** Automatisierte Überprüfung und Installation sicherheitsrelevanter Updates für Betriebssystem und Anwendungen.
+- **Zugangskontrolle:** Durchgehende Überprüfung aller administrativen Zugänge und deren Protokollierung, insbesondere für Remote-Zugriffe.
+- **Schulungen:** Regelmäßige Sensibilisierung und Unterweisung der Nutzer bezüglich IT-Sicherheit und Social Engineering.
+- **Externe Audits:** Organisation von regelmäßigen externen Security-Audits zur Identifikation neuer Risiken.
+- **Incident-Response:** Aktualisierung und Probedurchlauf des Notfallplans für Sicherheitsvorfälle.
+- **Sicherung mobiler Endgeräte:** Kontrolle und Absicherung aller mobilen Geräte (Laptops, Smartphones), insbesondere bei Zugriff auf interne Ressourcen.
+- **Verschlüsselung:** Überprüfung und ggf. Ausweitung der Verschlüsselung für sensible Daten, sowohl im Ruhezustand als auch bei Übertragung.
+- **Cloud-Dienste:** Prüfung und Absicherung aller eingesetzten Cloud-Dienste gemäß aktueller Sicherheitsstandards.
+- **Physische Sicherheit:** Kontrolle der Zugangsmöglichkeiten zu Serverräumen und sicherheitsrelevanten Bereichen.
+
+---
+
+Ich wünsche viel Erfolg bei der weiteren Absicherung und Verwaltung der Systeme!
+
+*Unterschrift: Julia Schmitt*

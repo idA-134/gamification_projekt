@@ -1,0 +1,44 @@
+| Benutzername         	| Voller Name                       | Geburtsdatum | Anschrift                    	| Rolle         |
+|-----------------------|-----------------------------------|--------------|--------------------------------|---------------|
+|Felix Baumgartner      | Baumgartner, Felix 		        | 1996-03-29   | Wiesenweg 2, 85049 Ingolstadt 	| Benutzer      |
+|Lisa Becker            | Becker, Lisa Katharina            | 1997-06-30   | Schulweg 19, 21029 Hamburg   	| Benutzer      |
+|Markus Bertram         | Bertram, Markus Constantin        | 2001-04-03   | Sonnenallee 31, 04109 Leipzig 	| Benutzer      |
+|Timo Burkhardt         | Burkhardt, Timo         			| 1985-12-01   | Höhenweg 25, 21029 Hamburg   	| Benutzer      |
+|Simon Elias            | Elias, Simon              		| 2002-06-17   | Mühlenstraße 2, 04109 Leipzig 	| Benutzer      |
+|Matthias Fischer       | Fischer, Matthias          		| 1988-05-19   | Sommerweg 19, 80331 München  	| Benutzer      |
+|Svenja Fischer         | Fischer, Svenja Leonie            | 2000-02-16   | Feldrain 12, 99084 Erfurt    	| Benutzer      |
+|Benjamin Franke        | Franke, Benjamin Oliver           | 2000-12-19   | Steinweg 7, 37073 Göttingen  	| Benutzer      |
+|Frank Weber            | Weber, Frank Alexander            | 1975-11-30   | Feldstraße 5, 04109 Leipzig  	| Administrator |
+|Sandra Graf            | Graf, Sandra               		| 1990-06-08   | Kirchweg 22, 70173 Stuttgart 	| Benutzer      |
+|Annika Keller          | Keller, Annika Sophie             | 2002-09-07   | Weinberg 6, 68159 Mannheim   	| Benutzer      |
+|Sophie Koenig          | König, Sophie Marie               | 1990-07-22   | Lindenallee 11, 50667 Köln   	| Administrator |
+|Elisa Koenig           | König, Elisa               		| 1996-12-30   | Schulplatz 5, 13507 Berlin   	| Benutzer      |
+|Nina Krause            | Krause, Nina Theresa              | 1999-03-09   | Parkstraße 41, 60313 Frankfurt | Benutzer      |
+|Petra Kraus            | Kraus, Petra              		| 1983-03-23   | Am Markt 13, 37073 Göttingen 	| Benutzer      |
+|Thomas Klein           | Klein, Thomas                  	| 1978-12-09   | Hauptstr. 44, 60313 Frankfurt 	| Administrator |
+|Kurt Dagel             | Dagel, Kurt Johannes              | 1985-10-02   | Marktstraße 12, 37073 Göttingen| Administrator |
+|Julia Krueger          | Krüger, Julia            			| 1994-01-08   | Kiefernweg 4, 70173 Stuttgart 	| Benutzer      |
+|Laura Hoffmann         | Hoffmann, Laura Isabel            | 1994-04-25   | Schillerweg 3, 04109 Leipzig 	| Benutzer      |
+|Daniel Schwarz         | Schwarz, Daniel Peter             | 1989-01-21   | Amselweg 4, 87435 Kempten    	| Benutzer      |
+|Hannah Schmidt         | Schmidt, Hannah              		| 1997-10-30   | Kirchstraße 9, 70173 Stuttgart | Benutzer      |
+|Anna Schmidt           | Schmidt, Anna Luise               | 1992-04-15   | Blumenweg 3, 12345 Berlin    	| Administrator |
+|Bernd Schmidt          | Schmidt, Bernd               		| 1985-01-13   | Rheinweg 11, 28209 Bremen    	| Benutzer      |
+|Julia Schmitt          | Schmitt, Julia              		| 1988-03-18   | Sonnenweg 8, 70173 Stuttgart 	| Administrator |
+|Claudia Meyer          | Meyer, Claudia             		| 2001-05-11   | Rosenweg 8, 90402 Nürnberg   	| Benutzer      |
+|Paul Meyer             | Meyer, Paul Lukas                 | 1995-08-10   | Alpenweg 55, 80331 München   	| Benutzer      |
+|Johannes Mueller       | Müller, Johannes Tobias           | 1982-11-17   | Mozartstraße 4, 28209 Bremen 	| Benutzer      |
+|Mario Mueller          | Müller, Mario                     | 1993-09-12   | Gartenstraße 20, 90402 Nürnberg| Benutzer      |
+|Max Mustermann         | Mustermann, Max                   | 1999-01-01   | Musterstraße 1, 10115 Berlin 	| Benutzer      |
+|Eva Martin             | Martin, Eva Franziska             | 1991-07-14   | Tannenweg 23, 99085 Erfurt   	| Benutzer      |
+|Stefan Bauer           | Bauer, Stefan               		| 1988-08-03   | Marktgasse 2, 99084 Erfurt   	| Benutzer      |
+|Sophie Koenig          | König, Sophie                		| 1990-07-22   | Lindenallee 11, 50667 Köln   	| Administrator |
+|Robert Schulz          | Schulz, Robert                    | 1987-05-12   | Römerstraße 5, 50667 Köln    	| Benutzer      |
+|Kevin Schneider        | Schneider, Kevin            		| 1995-09-29   | Birkenweg 20, 68159 Mannheim 	| Benutzer      |
+|Michael Zimmermann     | Zimmermann, Michael Fabian        | 1993-02-14   | Seeufer 9, 85049 Ingolstadt  	| Benutzer      |
+|Sarah Jansen           | Jansen, Sarah            			| 1998-04-28   | Uferstraße 11, 14467 Potsdam 	| Benutzer      |
+|Tim Wagner             | Wagner, Tim Sebastian             | 1986-06-23   | Krugstraße 15, 80331 München 	| Benutzer      |
+|Frank Weber            | Weber, Frank              		| 1975-11-30   | Feldstraße 5, 04109 Leipzig  	| Administrator |
+|Leonie Wolff           | Wolff, Leonie                		| 1999-07-05   | Hauptplatz 10, 87435 Kempten 	| Benutzer      |
+|Andreas Spitz          | Spitz, Andreas 		            | 1992-10-22   | Waldstraße 7, 99085 Erfurt   	| Benutzer      |
+|Tom Schreiber          | Schreiber, Tom Martin             | 1994-05-04   | Bachweg 7, 89073 Ulm         	| Benutzer      |
+|Katharina Toews        | Toews, Katharina Elisabeth        | 1996-11-27   | Bachstraße 9, 60313 Frankfurt 	| Benutzer      |
